@@ -1,0 +1,23 @@
+{
+  "name": "first-pwa-page",
+  "version": "1.0.0",
+  "description": "可以添加到桌面图标。",
+  "main": "sw.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhyjor/first-pwa-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhyjor/first-pwa-page/issues"
+  },
+  "homepage": "https://github.com/zhyjor/first-pwa-page#readme",
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0"
+  }
+}
