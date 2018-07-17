@@ -1,0 +1,25 @@
+{
+  "short_name": "pwa",
+  "name": "pwa", // 应用名称
+  "icons": [ // 应用显示图标，根据容器大小适配
+    {
+      "src": "assets/images/icon_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/images/icon_72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "assets/images/icon_96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "background_color": "#2196F3", // 刚打开页面时的背景
+  "theme_color": "#2196F3", // 主题颜色
+  "display": "standalone", //独立显示
+  "start_url": "index.html?launcher=true" // 启动的页面
+}
